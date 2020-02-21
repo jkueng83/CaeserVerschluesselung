@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a27fb820-822d-4374-b174-734e11638c46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CaeserVerschluesselung/at/jku/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaeserVerschluesselung/at/jku/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/jku/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/jku/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="a27fb820-822d-4374-b174-734e11638c46" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +9,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1Y84IaJQPNekAZxQFWdYHPRtA7R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -88,5 +84,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="492" key="GridCell.Tab.1.right/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582312235125" />
+    <state x="1089" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582313666174">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1089" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582313666174" />
   </component>
 </project>
