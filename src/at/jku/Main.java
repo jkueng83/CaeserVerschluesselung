@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-
+//write some cool stuff
         String eingabeUnverschluesselt = "DASISTDERTEXTUNDNOCHETWASJJJ";
 
         System.out.println( eingabeUnverschluesselt);
