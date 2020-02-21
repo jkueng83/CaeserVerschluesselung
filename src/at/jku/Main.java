@@ -7,51 +7,47 @@ public class Main {
 
         String eingabeUnverschluesselt = "DASISTDERTEXTUNDNOCHETWASJJJ";
 
-        System.out.println("Caeser + add from git hub");
+        System.out.println( eingabeUnverschluesselt);
 
         String verschluesselung = "";
 
-        int stringLaenge = eingabeUnverschluesselt.length();
+        verschluesselung = encryption(eingabeUnverschluesselt, false);
 
+        System.out.println(verschluesselung);
+
+        System.out.println(verschluesselung);
+
+        String entschluesselt = "";
+
+        entschluesselt = encryption(verschluesselung , true) ;
+
+        System.out.println(entschluesselt);
+
+    }
+
+    private static String encryption(String inputString, boolean decrypt) {
         int counter = 10;
+        int stringLaenge = inputString.length();
+        String verschluesselung = "";
 
         for (int i = 0; i < stringLaenge; i++) {
-            char car = eingabeUnverschluesselt.charAt(i);
-            car += counter;
+            char car = inputString.charAt(i);
+
+            if (!decrypt)
+                car += counter;
+            else
+                car -= counter;
+
             verschluesselung += car;
 
             counter++;
 
-            if (counter > 20) {
-                counter = 7;
-            }
-
-            System.out.print(car);
-
-        }
-
-        System.out.println(verschluesselung);
-
-        stringLaenge = verschluesselung.length();
-
-        String entschluesselt ="";
-
-        counter = 10;
-        for (int i = 0 ; i < stringLaenge ; i++){
-            char car = verschluesselung.charAt(i);
-            car -= counter;
-            entschluesselt += car ;
-
-            counter++;
-
+            // Verschlüsselungslogik
             if (counter > 20) {
                 counter = 7;
             }
 
         }
-
-        System.out.println(entschluesselt);
-
-
+        return verschluesselung;
     }
 }
