@@ -5,9 +5,9 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
 //write some cool stuff
-        String eingabeUnverschluesselt = "DASISTDERTEXTUNDNOCHETWASJJJ";
+        String eingabeUnverschluesselt = "?DAS!ISTDERTEXTUNDNOCHETWAS!JJJ?";
 
-        System.out.println( eingabeUnverschluesselt);
+        System.out.println(eingabeUnverschluesselt);
 
         String verschluesselung = "";
 
@@ -19,7 +19,7 @@ public class Main {
 
         String entschluesselt = "";
 
-        entschluesselt = encryption(verschluesselung , true) ;
+        entschluesselt = encryption(verschluesselung, true);
 
         System.out.println(entschluesselt);
 
@@ -30,13 +30,30 @@ public class Main {
         int stringLaenge = inputString.length();
         String verschluesselung = "";
 
+        /*int counterSonderzeichen1 = 3 ;
+        boolean sonderZeichen1Aktive = false ;
+        if (counterSonderzeichen1%9==0) {
+            sonderZeichen1Aktive=true;
+        }
+
+        if(sonderZeichen1Aktive){
+            if (!decrypt){
+
+            verschluesselung +="!";
+        }*/
+
+
         for (int i = 0; i < stringLaenge; i++) {
+
             char car = inputString.charAt(i);
 
-            if (!decrypt)
-                car += counter;
-            else
-                car -= counter;
+            if (!((car == '!') || (car == '?'))) {
+                if (!decrypt) {
+                    car += counter;
+                } else {
+                    car -= counter;
+                }
+            }
 
             verschluesselung += car;
 
