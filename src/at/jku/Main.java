@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         // Eingabetext
-        String eingabeUnverschluesselt = "?IIIIIIIII??ÄÜÖÖÜÄ!!DAS!ISTDERTEXTUNDNOCHETWAS!undJohannesKüng?";
+        String eingabeUnverschluesselt = "?IIIIIIIII??ÄÜÖÖÜÄ!!DAS!ISTDERTEXTUNDNOCHETWAS!undJohannesKüng?jkjl!";
         System.out.println("Der Eingabe String lautet:\t\t\t" + eingabeUnverschluesselt);
 
         // Alles auf GROSS Buchstaben umwandeln
