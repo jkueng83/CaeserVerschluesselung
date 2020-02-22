@@ -3,66 +3,66 @@ package at.jku;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
-//write some cool stuff
-        String eingabeUnverschluesselt = "?DAS!ISTDERTEXTUNDNOCHETWAS!JJJ?";
+        // Eingabetext
+        String eingabeUnverschluesselt = "?IIIIIIIII??ÄÜÖÖÜÄ!!DAS!ISTDERTEXTUNDNOCHETWAS!undJohannesKüng?";
+        System.out.println("Der Eingabe String lautet:\t\t\t" + eingabeUnverschluesselt);
 
-        System.out.println(eingabeUnverschluesselt);
+        // Alles auf GROSS Buchstaben umwandeln
+        String eingabeUnverschluesseltBearbeitet = eingabeUnverschluesselt.toUpperCase();
+        System.out.println("Der Eingabe String bearbeitet:\t\t" + eingabeUnverschluesseltBearbeitet);
 
-        String verschluesselung = "";
+        //Umlaute ersetzen
+        eingabeUnverschluesseltBearbeitet = stringOhneUmlaute(eingabeUnverschluesseltBearbeitet);
+        System.out.println("Der Eingabe String bearbeitet:\t\t" + eingabeUnverschluesseltBearbeitet);
 
-        verschluesselung = encryption(eingabeUnverschluesselt, false);
+        // Verschlüsseln
+        String stringVerschluesselt = encryption(eingabeUnverschluesseltBearbeitet, false);
+        System.out.println("Der verschlüsselte String lautet:\t" + stringVerschluesselt);
 
-        System.out.println(verschluesselung);
+        // Entschlüsseln
+        String stringEntschluesselt = encryption(stringVerschluesselt, true);
+        System.out.println("Der entschlüsselte String lautet:\t" + stringEntschluesselt);
 
-        System.out.println(verschluesselung);
+    }
 
-        String entschluesselt = "";
+    private static String stringOhneUmlaute(String inputString) {
 
-        entschluesselt = encryption(verschluesselung, true);
-
-        System.out.println(entschluesselt);
+        String stringOhneUmlauteIntern = inputString.replaceAll("Ä", "AE");
+        stringOhneUmlauteIntern = stringOhneUmlauteIntern.replaceAll("Ö", "OE");
+        stringOhneUmlauteIntern = stringOhneUmlauteIntern.replaceAll("Ü", "UE");
+        return stringOhneUmlauteIntern;
 
     }
 
     private static String encryption(String inputString, boolean decrypt) {
-        int counter = 10;
+
         int stringLaenge = inputString.length();
         String verschluesselung = "";
 
-        /*int counterSonderzeichen1 = 3 ;
-        boolean sonderZeichen1Aktive = false ;
-        if (counterSonderzeichen1%9==0) {
-            sonderZeichen1Aktive=true;
-        }
-
-        if(sonderZeichen1Aktive){
-            if (!decrypt){
-
-            verschluesselung +="!";
-        }*/
-
+        int decryptOffset = 3;
 
         for (int i = 0; i < stringLaenge; i++) {
 
             char car = inputString.charAt(i);
 
+            decryptOffset = decryptOffset + i * 3;
+
+            while (decryptOffset > 10) {
+                decryptOffset -= 8;
+            }
+
             if (!((car == '!') || (car == '?'))) {
                 if (!decrypt) {
-                    car += counter;
+                    //car += counter;
+                    car += decryptOffset;
                 } else {
-                    car -= counter;
+                    //car -= counter;
+                    car -= decryptOffset;
                 }
             }
 
+            // String wieder zusammenbauen
             verschluesselung += car;
-
-            counter++;
-
-            // Verschlüsselungslogik
-            if (counter > 20) {
-                counter = 7;
-            }
 
         }
         return verschluesselung;
