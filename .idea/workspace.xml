@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a27fb820-822d-4374-b174-734e11638c46" name="Default Changelist" comment="">
+    <list default="true" id="a27fb820-822d-4374-b174-734e11638c46" name="Default Changelist" comment="! bleibt !&#10;? bleibt ?&#10;Aus Ä, Ö, Ü, wird AE, OE, UE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/jku/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/jku/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CaeserVerschluesselung/at/jku/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CaeserVerschluesselung/at/jku/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582317932244</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="! bleibt !&#10;? bleibt ?&#10;Aus Ä, Ö, Ü, wird AE, OE, UE">
+      <created>1582361299542</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582361299542</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -93,13 +100,14 @@
     <MESSAGE value="Update" />
     <MESSAGE value="added encryption/decryption" />
     <MESSAGE value="added !?" />
-    <option name="LAST_COMMIT_MESSAGE" value="added !?" />
+    <MESSAGE value="! bleibt !&#10;? bleibt ?&#10;Aus Ä, Ö, Ü, wird AE, OE, UE" />
+    <option name="LAST_COMMIT_MESSAGE" value="! bleibt !&#10;? bleibt ?&#10;Aus Ä, Ö, Ü, wird AE, OE, UE" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="884" y="337" key="CommitChangelistDialog2" timestamp="1582317931620">
+    <state x="884" y="337" key="CommitChangelistDialog2" timestamp="1582364198679">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="884" y="337" key="CommitChangelistDialog2/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582317931620" />
+    <state x="884" y="337" key="CommitChangelistDialog2/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582364198679" />
     <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1582313830329">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -108,22 +116,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="456" key="FileChooserDialogImpl/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582358334751" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1582361184670">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1582363525444">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582361184670" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1582361184670">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582363525444" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1582363525444">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582361184670" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1582361184670">
+    <state width="2517" height="401" key="GridCell.Tab.0.center/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582363525444" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1582363525444">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582361184670" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1582361184670">
+    <state width="2517" height="401" key="GridCell.Tab.0.left/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582363525444" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1582363525444">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582361184670" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582363525444" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1582359201922">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -140,10 +148,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="492" key="GridCell.Tab.1.right/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582359201922" />
-    <state x="872" y="434" key="Vcs.Push.Dialog.v2" timestamp="1582317937053">
+    <state x="872" y="434" key="Vcs.Push.Dialog.v2" timestamp="1582361304647">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="434" key="Vcs.Push.Dialog.v2/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582317937053" />
+    <state x="872" y="434" key="Vcs.Push.Dialog.v2/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582361304647" />
     <state x="1089" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582361222822">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -152,5 +160,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="784" y="503" key="extract.method.dialog/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582314562337" />
+    <state x="662" y="321" key="new project wizard" timestamp="1582361573873">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="662" y="321" key="new project wizard/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1582361573873" />
   </component>
 </project>
