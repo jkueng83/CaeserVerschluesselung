@@ -1,11 +1,20 @@
 package at.jku;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
         // Eingabetext
-        String eingabeUnverschluesselt = "?IIIIIIIII??ÄÜÖÖÜÄ!!DAS!ISTDERTEXTUNDNOCHETWAS!undJohannesKüng?jkjl!";
+        String eingabeUnverschluesselt = "";//""?IIIIIIIII??ÄÜÖÖÜÄ!!DAS!ISTDERTEXTUNDNOCHETWAS!undJohannesKüng?jkjl!";
+
+        // Ergänzung Eingabemöglichkeit
+        System.out.println("Was möchten sie verschlüsseln? Bitte eingeben:");
+        Scanner scanner = new Scanner(System.in) ;
+
+        eingabeUnverschluesselt = scanner.nextLine();//  scanner.next();
         System.out.println("Der Eingabe String lautet:\t\t\t" + eingabeUnverschluesselt);
+
 
         // Alles auf GROSS Buchstaben umwandeln
         String eingabeUnverschluesseltBearbeitet = eingabeUnverschluesselt.toUpperCase();
